@@ -1,0 +1,87 @@
+#day 4 list , set
+#panagram******imp✌️✌️✌
+
+'''a = input()
+s1 = set(a)
+if len(s1) == 27:
+    print("panagram")
+else:
+    print("not panagram")'''
+
+''''a = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'}
+s = input()
+d ={}
+for i in s:
+    if i in a:
+        if i not in d:
+            d[i]=1
+        else:
+            d[i]+=1
+x=d.keys()
+print(d)
+if len(x) == 26:
+    print("panagram")
+else:
+    print("not panagram")'''
+
+
+#print 1st repeating character
+'''a = input()
+b = {}
+for i in b:
+    print(a)
+else:'''
+
+'''n = int(input()
+for i in n:
+    p={("tom":787678686),("jerry":68675646),("sam":5647873)}
+    d ={}
+    for j in p:
+        if p in d:
+            print(d[j])
+        else:
+            print("not found")'''
+
+
+#print max names
+'''a =int(input())
+c ={}
+for i in range(a):
+    b = input()
+    if b in c:
+        c[b]= c[b]+1
+    else:
+        c[b] = 1
+x = max(c.values())
+z = []
+for i in c:
+    if c[i] == x:
+        z.append(i)
+print(max(z),x)'''
+
+'''n =int(input())
+for i in range(n):
+    a,b =(int,intput().split())
+    if (a,b) in n:
+        print
+        (n)
+    else:
+        print("wrong")'''
+
+#route graph
+'''n=int(input())
+route ={}
+for i in range(n):
+    c1,c2 = input().split()
+    if c1 not in route:
+        route[c1] = [c2]
+    else:
+        route[c1].append(c2)
+print(route)
+city = input()
+if city in route:
+    print(*route[city])
+else:
+    print("none")'''
+
+n = int(input())
